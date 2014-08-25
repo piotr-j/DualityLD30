@@ -1,5 +1,5 @@
 ## Duality
-Duality is my entry for Ludum Dare 30
+Duality is my entry for Ludum Dare 30. Its a platformer with 2 planes of existance. Heaven and Hell. Figure it out!
 
 ### Intalation
 Clone this repo `git clone https://github.com/piotr-j/DualityLD30.git`

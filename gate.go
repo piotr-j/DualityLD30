@@ -30,9 +30,8 @@ func (o *Gate) SetForm(form Form) {
 func (o *Gate) Type() GameObjectType {
 	if o.exploded {
 		return GOGateOpen
-	} else {
-		return GOGateClosed
-	}
+	} 
+    return GOGateClosed
 }
 
 func (o *Gate) Explode() {

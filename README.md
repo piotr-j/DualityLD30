@@ -2,17 +2,14 @@
 Duality is my entry for Ludum Dare 30
 
 ### Intalation
-Build from source with `go get -u github.com/piotr-j/DualityLD30`
-
-### Usage
-windows:
-`go build && ludumdare30.exe`
-
-unix:
-`go run ludumdare.go game.go ceiling.go enemy.go floor.go gameobjects.go gate.go level.go player.go portal.go projectile.go spawn.go trap.go wall.go`
+Clone this repo `git clone https://github.com/piotr-j/DualityLD30.git`
+Go to the directory and build it
+`cd DualityLD30 && go build`
+Run with: `./DualityLD30`
 
 ### Controls
 WSAD or arrows to move, SPACE to shoot. ESC to quit.
+
 ### Dependancies
  - go 1.3
  - [termbox-go](https://github.com/nsf/termbox-go)
